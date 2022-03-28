@@ -5,28 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concatenação</title>
+    <title>Formatando String's</title>
     <style>
         body {
-            background-color: rgba(251, 255, 0, 0.719);
-            color: black;
             font: normal 20pt Arial;
-            /*isso é um comentário CSS3*/
+            background-color: rgba(255, 127, 80, 0.508);
         }
     </style>
-</head>
-
-<body>
-    <h1>Olá, Mundo!!!</h1>
-    <!--isso é um comentario HTML5-->
-    <p>Fraterno Amor.</p>
     <script>
-        var nome = 'Darling'
-        var idade = 42
-        var nota = 10
-            /*alert('O seu nome é ' + nome + ', sua idade é ' + idade + ' e sua nota é ' + nota + '.')*/
-        alert(`O seu nome é ${nome}, sua idade é ${idade} e sua nota é ${nota}.`)
+        var nome = prompt('Qual é o seu nome: ')
+        document.write(`Olá ${nome}! Seu nome têm <strong>${nome.length}</strong> letras.<br>`)
+        document.write(`O seu nome em maiúsculo é: <strong>${nome.toUpperCase()}</strong>.<br>`)
+        document.write(`O seu nome em minúsculo é: <strong>${nome.toLowerCase()}</strong>.`)
     </script>
-</body>
 
 </html>

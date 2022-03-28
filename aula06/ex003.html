@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversação</title>
+    <title>Concatenação</title>
     <style>
         body {
             background-color: rgba(251, 255, 0, 0.719);
@@ -19,16 +19,13 @@
 <body>
     <h1>Olá, Mundo!!!</h1>
     <!--isso é um comentario HTML5-->
-    <p>A Hora Sublime.</p>
+    <p>Fraterno Amor.</p>
     <script>
-        var n1 = Number.parseFloat(window.prompt('Digite um numero:'))
-        var n2 = Number.parseFloat(window.prompt('Digite outro numero:'))
-        var s = n1 + n2
-        window.alert('A soma dos valores é ' + s.toString())
-        var n3 = Number(prompt('Digite um numero: '))
-        var n4 = Number(prompt('Digite outro numero: '))
-        var soma = n3 + n4
-        alert('A soma dos valores é ' + String(soma))
+        var nome = 'Darling'
+        var idade = 42
+        var nota = 10
+            /*alert('O seu nome é ' + nome + ', sua idade é ' + idade + ' e sua nota é ' + nota + '.')*/
+        alert(`O seu nome é ${nome}, sua idade é ${idade} e sua nota é ${nota}.`)
     </script>
 </body>
 

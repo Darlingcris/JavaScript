@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversação</title>
+    <title>Manipulação de Dados</title>
     <style>
         body {
             background-color: rgba(251, 255, 0, 0.719);
@@ -19,16 +19,11 @@
 <body>
     <h1>Olá, Mundo!!!</h1>
     <!--isso é um comentario HTML5-->
-    <p>A Hora Sublime.</p>
+    <p>Eu quero, eu posso, eu vou fazer, eu vou realizar.</p>
     <script>
-        var n1 = Number.parseFloat(window.prompt('Digite um numero:'))
-        var n2 = Number.parseFloat(window.prompt('Digite outro numero:'))
-        var s = n1 + n2
-        window.alert('A soma dos valores é ' + s.toString())
-        var n3 = Number(prompt('Digite um numero: '))
-        var n4 = Number(prompt('Digite outro numero: '))
-        var soma = n3 + n4
-        alert('A soma dos valores é ' + String(soma))
+        var nome = window.prompt('Qual é o seu nome?') //janela com uma pergunta e espaço para responder 
+
+        window.alert('É um grande prazer te conhecer, ' + nome + '!') /*concatenação */
     </script>
 </body>
 
