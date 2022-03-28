@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro programa...</title>
+    <title>Conversação</title>
     <style>
         body {
             background-color: rgba(251, 255, 0, 0.719);
@@ -19,12 +19,16 @@
 <body>
     <h1>Olá, Mundo!!!</h1>
     <!--isso é um comentario HTML5-->
-    <p>Já me livrei da maldição.</p>
+    <p>A Hora Sublime.</p>
     <script>
-        var n1 = window.prompt('Digite um numero:')
-        var n2 = window.prompt('Digite outro numero:')
+        var n1 = Number.parseFloat(window.prompt('Digite um numero:'))
+        var n2 = Number.parseFloat(window.prompt('Digite outro numero:'))
         var s = n1 + n2
-        window.alert('A soma dos valores é ')
+        window.alert('A soma dos valores é ' + s.toString())
+        var n3 = Number(prompt('Digite um numero: '))
+        var n4 = Number(prompt('Digite outro numero: '))
+        var soma = n3 + n4
+        alert('A soma dos valores é ' + String(soma))
     </script>
 </body>
 
