@@ -12,3 +12,6 @@ Link's para acessar os exercícios do JS em'.html':
 <p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula10/ex001.html">Exercício 007</a></p>
 <p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula10/ex002.html">Exercício 008</a></p>
 <p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula10/ex003.html">Exercício 009</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula11/ex001.js">Exercício 011</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula11/ex002.js">Exercício 011</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula11/ex003.html">Exercício 011</a></p>
