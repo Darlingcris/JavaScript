@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        body {
+            font: normal 20pt Arial;
+            background-color: rgba(255, 20, 145, 0.419);
+        }
+        
+        h1 {
+            font-family: 'Indie Flower', Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nacionalidade</h1>
+    Em qual país você nasceu? <input type="string" name="pais" id="pais">
+    <input type="button" value="Verificar" onclick="comparar()">
+    <div id="texto">
+
+    </div>
+    <script>
+        function comparar() {
+            var nacionalidade = document.querySelector('input#pais')
+
+            var texto = document.querySelector('div#texto')
+            var origem = (nacionalidade.value.toUpperCase())
+            texto.innerHTML = `<p>Você nasceu no(a) <strong>${origem}</strong>.</p>`
+            if (origem == 'BRASIL') {
+                texto.innerHTML += '<p>Você é <strong>Brasileiro!</strong></p>'
+
+            } else {
+                texto.innerHTML += '<p>Você é <strong>Estrangeiro!</strong></p>'
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>
