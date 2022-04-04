@@ -17,6 +17,7 @@ Link's para acessar os exercícios do JS em'.html':
 <p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula12b/ex001.html">Exercício 012</a></p>
 <p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula13/ex001.js">Exercício 013</a></p>
 <p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula14/ex001.js">Exercício 014</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula14ex1/ex001.html">Exercício 015</a></p>
 
 Link's para acessar os desafios do JS em'.html':
 
