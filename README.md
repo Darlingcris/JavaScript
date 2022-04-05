@@ -3,20 +3,20 @@
 
 Link's para acessar os exercícios do JS em'.html':
 
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula04/ex001.html">Exercício 001</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula06/ex001.html">Exercício 002</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula06/ex002.html">Exercício 003</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula06/ex003.html">Exercício 004</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula06/ex004.html">Exercício 005</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula09/ex001.html">Exercício 006</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula10/ex001.html">Exercício 007</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula10/ex002.html">Exercício 008</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula10/ex003.html">Exercício 009</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula11/ex003.html">Exercício 010</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula12a/ex004.html">Exercício 011</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula12b/ex001.html">Exercício 012</a></p>
-<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula14ex1/ex001.html">Exercício 013</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula04/interacao.html">Interação</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula06/caixInteracao.html">caix Interação</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula06/somatoria.html">Somatória</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula06/caixAlerta.html">Caix Alerta</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula06/manipulandoStrings.html">Manipulando Strings</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula09/dom.html">D.O.M</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula10/interaja.html">Interaja</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula10/limpandoHtml.html">Limpando HTML</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula10/somandoValores.html">Somando Valores</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula11/sistemadeMultas.html">Sistema de Multas</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula12a/horaDia.html">Hora do Dia</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula12b/verificadorIdade.html">Verificador de Idade</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula14ex1/vamosContar.html">Vamos contar?</a></p>
 
 Link's para acessar os desafios do JS em'.html':
 
-<p><a href="https://darlingcris.github.io/JavaScript/desafios/des001.html">Desafio 01</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/desafios/nacionalidade.html">Nacionalidade</a></p>
