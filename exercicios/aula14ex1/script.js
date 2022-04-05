@@ -11,7 +11,7 @@ function contar() {
 
 
     } else {
-        res.innerHTML = 'Contando: '
+        res.innerHTML = 'Contando: <br>'
         var contI = Number(i.value)
         var contF = Number(f.value)
         var contP = Number(p.value)
