@@ -4,7 +4,7 @@ function calcular() {
     var n = Number(num.value)
     var c = 0
 
-    if (n == "") {
+    if (num.value.length == 0) {
         alert('Dado inválido. Tente novamente!')
 
     } else {
