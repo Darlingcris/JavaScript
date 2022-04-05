@@ -16,7 +16,9 @@ Link's para acessar os exercícios do JS em'.html':
 <p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula12a/horaDia.html">Hora do Dia</a></p>
 <p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula12b/verificadorIdade.html">Verificador de Idade</a></p>
 <p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula14ex1/vamosContar.html">Vamos contar?</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/exercicios/aula14ex2/Tabuada.html">Vamos contar?</a></p>
 
 Link's para acessar os desafios do JS em'.html':
 
 <p><a href="https://darlingcris.github.io/JavaScript/desafios/nacionalidade.html">Nacionalidade</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/desafios/tabuada/tabuada.html">Tabuada</a></p>
