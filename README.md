@@ -22,3 +22,4 @@ Link's para acessar os desafios do JS em'.html':
 
 <p><a href="https://darlingcris.github.io/JavaScript/desafios/nacionalidade.html">Nacionalidade</a></p>
 <p><a href="https://darlingcris.github.io/JavaScript/desafios/tabuada/tabuada.html">Tabuada</a></p>
+<p><a href="https://darlingcris.github.io/JavaScript/desafios/analisadorNumeros/analisadorNumeros.html">Analisador de Números</a></p>

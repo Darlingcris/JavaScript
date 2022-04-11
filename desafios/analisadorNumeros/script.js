@@ -6,6 +6,7 @@ var tabela = []
 
 function adicionar() {
 
+
     if (formn.value.length == 0) {
         alert('[ERROR] Digite um valor!')
 
@@ -14,8 +15,8 @@ function adicionar() {
 
 
     } else {
-        var n = Number(formn.value)
 
+        var n = Number(formn.value)
         var item = document.createElement('option')
 
         if (tabela.indexOf(n) != -1) {
@@ -25,6 +26,29 @@ function adicionar() {
             tabela.push(n)
             item.text = `O valor ${n} foi adicionado`
             formt.appendChild(item)
+            soma = tabela.reduce(function(soma, i) {
+                return soma + i;
+            });
+            media = soma / (tabela.length)
+            res.innerHTML = ''
         }
     }
+    formn.value = ''
+    formn.focus()
+}
+
+function finalizar() {
+
+    res.innerHTML = `Ao todo temos ${tabela.length} números cadastrados.<br><br>
+
+    O maior valor informado foi ${Math.max(...tabela)}.<br><br>
+    
+    O menor valor informado foi ${Math.min(...tabela)}.<br><br>
+    
+    A soma dos valores digitados é ${soma}.<br><br>
+    
+    A média dos valores digitados é ${media}.<br><br>
+    `
+
+
 }
