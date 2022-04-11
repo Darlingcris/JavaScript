@@ -39,15 +39,15 @@ function adicionar() {
 
 function finalizar() {
 
-    res.innerHTML = `Ao todo temos ${tabela.length} números cadastrados.<br><br>
+    res.innerHTML = `<p>Ao todo temos ${tabela.length} números cadastrados.</p>
 
-    O maior valor informado foi ${Math.max(...tabela)}.<br><br>
+    <p>O maior valor informado foi ${Math.max(...tabela)}.</p>
     
-    O menor valor informado foi ${Math.min(...tabela)}.<br><br>
+    <p>O menor valor informado foi ${Math.min(...tabela)}.</p>
     
-    A soma dos valores digitados é ${soma}.<br><br>
+    <p>A soma dos valores digitados é ${soma}.</p>
     
-    A média dos valores digitados é ${media}.<br><br>
+    <p>A média dos valores digitados é ${media}.</p>
     `
 
 
